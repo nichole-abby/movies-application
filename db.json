@@ -19,6 +19,31 @@
       "title": "Harry Potter",
       "rating": "5",
       "id": 4
+    },
+    {
+      "title": "Up",
+      "rating": "5",
+      "id": 5
+    },
+    {
+      "title": "The Lion King",
+      "rating": "5",
+      "id": 6
+    },
+    {
+      "title": "Superman",
+      "rating": "3",
+      "id": 7
+    },
+    {
+      "title": "Batman",
+      "rating": "2",
+      "id": 8
+    },
+    {
+      "title": "Beauty and the Beast",
+      "rating": "4",
+      "id": 9
     }
   ]
 }

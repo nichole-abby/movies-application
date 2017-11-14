@@ -1,4 +1,4 @@
-html, body {
+html {
     height: 100%;
     text-align: center;
 }
@@ -10,3 +10,7 @@ html, body {
     text-align: center;
 }
 
+
+h1 {
+    text-emphasis-color: mediumvioletred;
+}
