@@ -74,10 +74,13 @@ function addMovie() {
 
         })
         .catch(/* handle errors */);
-
-
 }
 
+    function editMovie() {
+        document.getElementById("editMovie").contentEditable = true;
+        document.getElementById("demo").innerHTML = "The movies above are now editable. Try to change the text.";
+    }
 
+    editMovie();
 
 });

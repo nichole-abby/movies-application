@@ -1,6 +1,8 @@
-html {
+html, body {
     height: 100%;
     text-align: center;
+    font-family: sans-serif;
+    background-color: lightpink;
 }
 
 .container {
@@ -10,7 +12,10 @@ html {
     text-align: center;
 }
 
-
 h1 {
-    text-emphasis-color: mediumvioletred;
+    color: ivory;
+}
+
+p {
+    color: red;
 }
