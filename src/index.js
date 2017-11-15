@@ -7,6 +7,7 @@
 /**
  * require style imports
  */
+
 const {getMovies} = require('./api.js');
 
 getMovies().then((movies) => {
@@ -58,7 +59,7 @@ function addMovie() {
                 // console.log(movies);
                 movies.forEach(function(movie) {
                     htmlString += "<h3>" + movie.title + "</h3>"
-                        + "<p>Rating: " + movie.rating + "</p>";
+                        + "<p>Rating: " + movie.rating + "</p>"
                     // console.log(`id#${id} - ${title} - rating: ${rating}`);
                     // $("p").text("Here are the movies");
                 });
@@ -75,12 +76,24 @@ function addMovie() {
         })
         .catch(/* handle errors */);
 }
-
-    function editMovie() {
-        document.getElementById("editMovie").contentEditable = true;
-        document.getElementById("demo").innerHTML = "The movies above are now editable. Try to change the text.";
-    }
-
-    editMovie();
+    //
+    // function editMovie() {
+    //     document.getElementById("editMovie").contentEditable = true;
+    //     document.getElementById("demo").innerHTML = "The movies above are now editable. Try to change the text.";
+    // }
+    //
+    // editMovie();
 
 });
+
+// function editMovie(arrObjs) {
+//     var editArr="";
+//     arrObjs.forEach(function (movie, index, array) {
+//         const {title, rating, id} = movie;
+//         $(`#editMovieBtn`)
+//     })
+// }
+
+ $("button").click(function(){
+     $("p").remove();
+ });
